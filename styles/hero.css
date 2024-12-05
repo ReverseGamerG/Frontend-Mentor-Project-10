@@ -1,0 +1,95 @@
+#hero{
+  padding: 64px 0;
+}
+
+#combined{
+  display: flex;
+  justify-content: space-between;
+}
+
+#text-ctt{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 448px;
+  text-align: center;
+  margin: 23px 0;
+
+  h1{
+    font: var(--text-p1);
+    color: var(--slate900);
+  }
+
+  > p{
+    font: var(--text-p4);
+    color: var(--slate600);
+    height: 54px;
+  }
+
+  #links{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+  }
+
+}
+
+.download{
+  display: flex;
+  text-decoration: none;
+  font: var(--text-p5);
+  color: var(--white);
+  background-color: var(--cyan600);
+  padding: 16px 40px;
+  border-radius: 29px;
+  gap: 4px;
+  transition: all .5s;
+
+  p{
+    color: var(--cyan300);
+  }
+}
+
+#whats{
+  font: var(--text-p5);
+  color: var(--white);
+  padding: 16px 40px;
+  background-color: var(--purple600);
+  border-radius: 29px;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#whats:hover{
+  background-color: #B18BDD;
+}
+
+.download:hover{
+  background-color: #71C0D4;
+
+  p{
+    color: var(--cyan300);
+  }
+}
+
+.faces{
+  width: 394px;
+  height: 360px;
+}
+
+#left{
+  background-image: url(../assets/desktop/image-hero-left.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 303px;
+}
+
+#right{
+  background-image: url(../assets/desktop/image-hero-right.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 303px;
+  margin-top: 57px;
+}

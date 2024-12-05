@@ -1,0 +1,66 @@
+footer{
+
+  .number{
+    position: relative;
+    bottom: -28px;
+
+    p{
+      background-color: var(--white);
+    }
+  }
+
+  #footer-hero{
+    background-image: url(../assets/desktop/image-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 160px;
+    gap: 32px;
+
+
+    h1{
+      font: var(--text-p2);
+      font-size: 52px;
+      color: var(--white);
+    }
+
+    >p{
+      width: 490px;
+      font: var(--text-p4);
+      font-size: 24px;
+      color: var(--white);
+    }
+
+    .download{
+      background-color: var(--purple600);
+      height: 56px;
+
+      p{
+        color: var(--purple300);
+      }
+    }
+
+    .download:hover{
+      background-color: #B18BDD;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px){
+
+  footer{
+    #footer-hero{
+      
+      h1{
+        white-space: nowrap;
+        font-size: 40px;
+      }
+  
+      >p{
+        width: 335px;
+        font-size: 18px;
+      }
+    }
+  }
+}

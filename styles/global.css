@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--white);
+}
+
+:root{
+  /*Colors*/
+
+  --cyan600: #4d96a9;
+  --cyan300: #8fe3f9;
+  --purple600: #855fb1;
+  --purple300: #d9b8ff;
+  --slate900: #28283d;
+  --slate600: #87879d;
+  --slate300: #D1D1DF;
+  --white: #fafafa;
+
+  /*Typography*/
+
+  --font-family: "Red Hat Display", sans-serif;
+
+  --text-p1: 900 64px/110% var(--font-family);
+  --text-p2: 900 40px/110% var(--font-family);
+  --text-p3: 900 16px/110% var(--font-family);
+  --text-p4: 500 18px/150% var(--font-family);
+  --text-p5: 700 16px/150% var(--font-family);
+}
