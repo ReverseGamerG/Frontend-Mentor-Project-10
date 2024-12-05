@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/ReverseGamerG/Frontend-Mentor-Project-09)
-- Live Site URL: [Equalizer landing page](https://reversegamerg.github.io/Frontend-Mentor-Project-09/)
+- Solution URL: [Github](https://github.com/ReverseGamerG/Frontend-Mentor-Project-10)
+- Live Site URL: [Equalizer landing page](https://reversegamerg.github.io/Frontend-Mentor-Project-10/)
 
 ## My process
 
